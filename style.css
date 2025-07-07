@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    width: 1024px;
+    min-height: 90vh;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.set-size {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
